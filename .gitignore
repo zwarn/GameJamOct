@@ -1,0 +1,10 @@
+Binaries
+DerivedDataCache
+Intermediate
+Saved
+Content/StarterContent
+*.opensdf
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
