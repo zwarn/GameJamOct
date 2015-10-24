@@ -8,3 +8,5 @@ Content/StarterContent
 *.sln
 *.suo
 *.xcodeproj
+Build/WindowsNoEditor/FileOpenOrder/CookerOpenOrder.log
+*.log
