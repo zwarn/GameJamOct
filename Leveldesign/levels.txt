@@ -1,0 +1,71 @@
+  == Intro ==
+
+exploration trip to mars ends up through cosmic warp vortex, crashlands on inhabitable alien planet's. you found you survived more or less unharmed in the middle of wasteland. you suddenly spot a faint structure on the eastern horizon and begin making your way under the burning heat of a class K sun.
+
+--gain single-click action "destroy"--
+
+
+
+  == 1 == "rain"
+
+"As you reject the notion of thirst, the weather turns!"
+<destroy sun>
+Tiles: sun, water, X
+Goal: have XX amount of water tiles pass.
+"You quenched your thirst and continue your way."
+
+~~*~*
+**~~*
+~~*~~
+~*~*~
+~~~~~
+
+--gain 2-line action "combine"--
+
+
+
+  == 2 == "wasteland predators"
+
+"As a storm comes up you feel you are not alone!"
+<combine storm + creature>
+Tiles: storm, creature, X
+Goal: combine XX creature + storm tiles.
+"Your foes disappear in the dust as you move onwards."
+
+o+--+  8x kombiniert
++o+--
+o+-+o
+--+oo
++-+-+
+
+--gain corner action "3-combine"--
+
+
+
+  == 3 == "sun, moon and stars"
+
+"you observe the skies to track your location"
+Tiles: sun, moon, star
+Goal: 3er-combine, um die ecke:
+  ab   cb   ...
+   c   a
+Reihenfolge dabei beliebig.
+"You ascertain your direction as night falls"
+
+123o31	6x kombiniert
+2o3122
+13231o
+o2312o
+31o231
+2231o2
+
+123o3132
+2o312213
+13231oo2
+o2312o31
+31o231o2
+22o31221
+312231o3
+1o31o221
+
+
